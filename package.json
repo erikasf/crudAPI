@@ -1,0 +1,32 @@
+{
+  "name": "express_library_app",
+  "version": "2.0.0",
+  "description": "express redone",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/erikasf/express_library_app.git"
+  },
+  "keywords": [
+    "express",
+    "javascript"
+  ],
+  "author": "erika harvey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erikasf/express_library_app/issues"
+  },
+  "homepage": "https://github.com/erikasf/express_library_app",
+  "dependencies": {
+    "body-parser": "^1.13.1",
+    "ejs": "^2.3.1",
+    "express": "^4.12.4",
+    "method-override": "^2.3.3",
+    "mongoose": "^4.0.5",
+    "morgan": "^1.6.0",
+    "nodeman": "^1.1.2"
+  }
+}

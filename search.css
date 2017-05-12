@@ -1,0 +1,65 @@
+.top{
+	text-align: center;
+	
+	border: 30px outset grey;
+  height: 40vh;
+	border-width: 20px;
+
+}
+.answer{
+	color: red;
+	font-size: 1.5em;
+	text-decoration: underline;
+	font-weight:700;
+}
+body{
+	background-color: ivory;
+	font-family: 'News Cycle', sans-serif;
+	font-size: 18px;
+	
+}
+.searchmate{
+	color: blue;
+}
+.resultItems{
+	-webkit-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+	font-size: ;
+	
+	
+}
+.resultItems:hover{
+	font-size: 1.5em;
+	font-weight:700;
+	background-color: black;
+	color: white;
+}
+#searchterm{
+	-webkit-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+	border:2px inset grey;
+	
+}
+#searchterm:focus{
+	border: 2px outset blue;
+	height: 50px;
+	color: black;
+	font-size: 1.5em;
+	font-weight:700;
+}
+#search{
+	background-color:black;
+	color: white;
+	height: 50px;
+}
+#results{
+	font-size: 24px;
+}
+#random{
+	background-color: black;
+	height: 50px;
+	
+}
+#random a{
+	color: white;
+}
